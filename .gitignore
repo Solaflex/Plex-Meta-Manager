@@ -13,6 +13,7 @@ __pycache__/
 /test*
 logs/
 config/*
+!/config/config.yml
 !config/overlays/
 config/overlays/*/
 config/overlays/temp.jpeg
