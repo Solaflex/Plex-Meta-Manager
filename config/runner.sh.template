@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+cd /mnt/volume-plex-meta-manager/Plex-Meta-Manager
+set -e
+export PMM_plex_url=xxx
+export PMM_plex_token=xxx
+export PMM_tmdb_token=xxx
+export PMM_omdb_apikey=xxx
+
+source "pmm-venv/bin/activate"
+python3.11 plex_meta_manager.py -r 
